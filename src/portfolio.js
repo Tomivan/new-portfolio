@@ -21,6 +21,14 @@ const header = {
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
+      name: 'Crown clothing',
+      description:
+        'An ecommerce application where you can shop for clothes, sneakers and hats',
+      stack: ['CSS', 'Javascript', 'React', 'Redux', 'Firebase'],
+      sourceCode: 'https://github.com/Tomivan/crown-clothing',
+      livePreview: 'https://crown-clothing.vercel.app/',
+    },
+    {
       name: 'Movie-search App',
       description:
         'Enter the name of any movie in the search box, and movies with that title are shown in boxes below, with some information about the movie',
@@ -58,6 +66,7 @@ const header = {
     'Vue',
     'Material UI',
     'Bootstrap',
+    'Firebase',
     'CI/CD',
     'SASS',
     'GIT',
