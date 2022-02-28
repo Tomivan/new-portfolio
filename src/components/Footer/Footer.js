@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='#'
+      href='/#'
       className='link footer__link'
     >
       Bukunmi Odugbesan
