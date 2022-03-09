@@ -26,7 +26,7 @@ const header = {
         'An ecommerce application where you can shop for clothes, sneakers and hats',
       stack: ['CSS', 'Javascript', 'React', 'Redux', 'Firebase'],
       sourceCode: 'https://github.com/Tomivan/crown-clothing',
-      livePreview: 'https://crown-clothing.vercel.app/',
+      livePreview: 'https://crown-clothing-theta.vercel.app',
     },
     {
       name: 'Movie-search App',
@@ -50,7 +50,15 @@ const header = {
         'The oneburner app has the login page, home page, enterprise page and the contact page. No authentication added',
       stack: ['CSS', 'Javascript', 'React'],
       sourceCode: 'https://github.com/Tomivan/Oneburner',
-      livePreview: 'skooleo.netlify.app/',
+      livePreview: 'https://oneburner-three-vercel.app',
+    },
+    {
+      name: 'Jumdeals',
+      description:
+        'The Jumdeals app is used to track goods available for purchase on Jumia',
+      stack: ['CSS', 'HTML'],
+      sourceCode: 'https://github.com/Tomivan/Jumdeals',
+      livePreview: 'Jumdeals.vercel.app',
     },
   ]
   
