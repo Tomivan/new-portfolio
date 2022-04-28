@@ -34,7 +34,7 @@ const header = {
         'Enter the name of any movie in the search box, and movies with that title are shown in boxes below, with some information about the movie',
       stack: ['CSS', 'Javascript', 'React'],
       sourceCode: 'https://github.com/Tomivan/React-movie-search-app',
-      livePreview: 'tzmovies.netlify.app/',
+      livePreview: 'https://tzmovies.netlify.app/',
     },
     {
       name: 'Booktracker',
@@ -50,15 +50,31 @@ const header = {
         'The oneburner app has the login page, home page, enterprise page and the contact page. No authentication added',
       stack: ['CSS', 'Javascript', 'React'],
       sourceCode: 'https://github.com/Tomivan/Oneburner',
-      livePreview: 'https://oneburner-three-vercel.app',
+      livePreview: 'https://oneburner-three.vercel.app',
+    },
+    // {
+    //   name: 'Jumdeals',
+    //   description:
+    //     'The Jumdeals app is used to track goods available for purchase on Jumia',
+    //   stack: ['CSS', 'HTML'],
+    //   sourceCode: 'https://github.com/Tomivan/Jumdeals',
+    //   livePreview: 'https://Jumdeals.vercel.app',
+    // },
+    {
+      name: 'Nativetalk',
+      description:
+        'The Nativetalk app is owned by Tech4mation Limited. The app gets users to register to use the nativatalk product which helps buisnesses connects with their customers',
+      stack: ['CSS', 'HTML', 'React', 'Bootstrap'],
+      sourceCode: 'https://github.com/Tomivan/NativeTalk-Landing',
+      livePreview: 'https://nativetalk.io',
     },
     {
-      name: 'Jumdeals',
+      name: 'Would-You-Rather',
       description:
-        'The Jumdeals app is used to track goods available for purchase on Jumia',
-      stack: ['CSS', 'HTML'],
-      sourceCode: 'https://github.com/Tomivan/Jumdeals',
-      livePreview: 'Jumdeals.vercel.app',
+        'A web based game that asks would-you-rather questions, keeps score and has a leaderboard with authentication functions',
+      stack: ['CSS', 'HTML', 'React', 'Redux'],
+      sourceCode: 'https://github.com/Tomivan/would-you-rather-udacity',
+      livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
     },
   ]
   
