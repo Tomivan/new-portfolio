@@ -21,10 +21,10 @@ const header = {
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-      name: 'Crown clothing',
+      name: 'Duro',
       description:
-        'An ecommerce application where you can shop for clothes, sneakers and hats',
-      stack: ['CSS', 'Javascript', 'React', 'Redux', 'Firebase'],
+        'Duro is a solution to the problem of queuing and line-cutting. You sign up to join the queue and would be alerted when it is your turn.',
+      stack: ['React', 'Typescript', 'React', 'Redux', 'Formik'],
       sourceCode: 'https://github.com/Tomivan/crown-clothing',
       livePreview: 'https://crown-clothing-theta.vercel.app',
     },
@@ -52,14 +52,14 @@ const header = {
       sourceCode: 'https://github.com/Tomivan/Oneburner',
       livePreview: 'https://oneburner-three.vercel.app',
     },
-    // {
-    //   name: 'Jumdeals',
-    //   description:
-    //     'The Jumdeals app is used to track goods available for purchase on Jumia',
-    //   stack: ['CSS', 'HTML'],
-    //   sourceCode: 'https://github.com/Tomivan/Jumdeals',
-    //   livePreview: 'https://Jumdeals.vercel.app',
-    // },
+    {
+      name: 'Rayda',
+      description:
+        'Rayda is an ecommerce app that displays items to be sold. The styling was done using Material UI and Redux Toolkit for API implementation',
+      stack: ['React', 'Material UI', 'Redux Toolkit'],
+      sourceCode: 'https://github.com/Tomivan/Rayda',
+      livePreview: 'https://rayda-lac.vercel.app/',
+    },
     {
       name: 'Nativetalk',
       description:
@@ -76,6 +76,46 @@ const header = {
       sourceCode: 'https://github.com/Tomivan/would-you-rather-udacity',
       livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
     },
+    {
+      name: 'Stars Wars',
+      description:
+        'The star wars api was consumed to show a list of movies, starships, people, and species in the starwars franchise',
+      stack: ['Material UI', 'React', 'React Hooks'],
+      sourceCode: 'https://github.com/Tomivan/enyata',
+      livePreview: 'https://starwars-tomivan.vercel.app',
+    },
+    {
+      name: 'Stars Wars',
+      description:
+        'The star wars api was consumed to show a list of movies, starships, people, and species in the starwars franchise',
+      stack: ['Material UI', 'React', 'React Hooks'],
+      sourceCode: 'https://github.com/Tomivan/enyata',
+      livePreview: 'https://starwars-tomivan.vercel.app',
+    },
+    {
+      name: 'Host Beak',
+      description:
+        'Hoost Beak is an app to manage business performance' ,
+      stack: ['Bootsrap', 'React', 'React Hooks', 'Carbon components'],
+      sourceCode: 'https://github.com/Tomivan/HostBeak',
+      livePreview: 'host-beak-six.vercel.app',
+    },
+    {
+      name: 'Apex',
+      description:
+        'The Apex app helps connects businesses with their customers',
+      stack: ['Tailwind', 'Vue'],
+      sourceCode: 'https://github.com/Tomivan/Apex',
+      livePreview: 'apex-woad.vercel.app',
+    },
+    {
+      name: 'Meta Care',
+      description:
+        'The metacare app shows different graphs',
+      stack: ['Chart js', 'React', 'React Hooks'],
+      sourceCode: 'https://github.com/Tomivan/metacare',
+      livePreview: 'https://metacare-omega.vercel.app/',
+    },
   ]
   
   const skills = [
@@ -90,6 +130,7 @@ const header = {
     'Vue',
     'Material UI',
     'Bootstrap',
+    'Tailwind',
     'Firebase',
     'CI/CD',
     'SASS',
