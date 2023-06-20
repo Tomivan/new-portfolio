@@ -25,8 +25,16 @@ const header = {
       description:
         'Duro is a solution to the problem of queuing and line-cutting. You sign up to join the queue and would be alerted when it is your turn.',
       stack: ['React', 'Typescript', 'React', 'Redux', 'Formik'],
-      sourceCode: 'https://github.com/Tomivan/crown-clothing',
-      livePreview: 'https://crown-clothing-theta.vercel.app',
+      sourceCode: 'https://github.com/PipelineV2/team-beta-duro-frontend',
+      livePreview: 'https://fascinating-halva-6ecf99.netlify.app/',
+    },
+    {
+      name: 'Nativetalk',
+      description:
+        'The Nativetalk app is owned by Tech4mation Limited. The app gets users to register to use the nativatalk product which helps buisnesses connects with their customers',
+      stack: ['CSS', 'HTML', 'React', 'Bootstrap'],
+      sourceCode: 'https://github.com/Tomivan/NativeTalk-Landing',
+      livePreview: 'https://nativetalk.io',
     },
     {
       name: 'Movie-search App',
@@ -45,6 +53,14 @@ const header = {
       livePreview: 'https://udacity-booktracker.vercel.app/',
     },
     {
+      name: 'Would-You-Rather',
+      description:
+        'A web based game that asks would-you-rather questions, keeps score and has a leaderboard with authentication functions',
+      stack: ['CSS', 'HTML', 'React', 'Redux'],
+      sourceCode: 'https://github.com/Tomivan/would-you-rather-udacity',
+      livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
+    },
+    {
       name: 'Oneburner',
       description:
         'The oneburner app has the login page, home page, enterprise page and the contact page. No authentication added',
@@ -60,22 +76,7 @@ const header = {
       sourceCode: 'https://github.com/Tomivan/Rayda',
       livePreview: 'https://rayda-lac.vercel.app/',
     },
-    {
-      name: 'Nativetalk',
-      description:
-        'The Nativetalk app is owned by Tech4mation Limited. The app gets users to register to use the nativatalk product which helps buisnesses connects with their customers',
-      stack: ['CSS', 'HTML', 'React', 'Bootstrap'],
-      sourceCode: 'https://github.com/Tomivan/NativeTalk-Landing',
-      livePreview: 'https://nativetalk.io',
-    },
-    {
-      name: 'Would-You-Rather',
-      description:
-        'A web based game that asks would-you-rather questions, keeps score and has a leaderboard with authentication functions',
-      stack: ['CSS', 'HTML', 'React', 'Redux'],
-      sourceCode: 'https://github.com/Tomivan/would-you-rather-udacity',
-      livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
-    },
+    
     {
       name: 'Stars Wars',
       description:
@@ -85,11 +86,11 @@ const header = {
       livePreview: 'https://starwars-tomivan.vercel.app',
     },
     {
-      name: 'Stars Wars',
+      name: 'Premium Health',
       description:
-        'The star wars api was consumed to show a list of movies, starships, people, and species in the starwars franchise',
-      stack: ['Material UI', 'React', 'React Hooks'],
-      sourceCode: 'https://github.com/Tomivan/enyata',
+        'The premium health is an admin dashboard used to keep record of patient information, health workers information and other admin',
+      stack: ['React', 'React Bootsrtap', 'Redux', 'React unit testing'],
+      sourceCode: 'https://github.com/Tomivan/health-portal',
       livePreview: 'https://starwars-tomivan.vercel.app',
     },
     {
@@ -98,7 +99,7 @@ const header = {
         'Hoost Beak is an app to manage business performance' ,
       stack: ['Bootsrap', 'React', 'React Hooks', 'Carbon components'],
       sourceCode: 'https://github.com/Tomivan/HostBeak',
-      livePreview: 'host-beak-six.vercel.app',
+      livePreview: 'https://host-beak-six.vercel.app',
     },
     {
       name: 'Apex',
@@ -106,7 +107,7 @@ const header = {
         'The Apex app helps connects businesses with their customers',
       stack: ['Tailwind', 'Vue'],
       sourceCode: 'https://github.com/Tomivan/Apex',
-      livePreview: 'apex-woad.vercel.app',
+      livePreview: 'https://apex-woad.vercel.app',
     },
     {
       name: 'Meta Care',
