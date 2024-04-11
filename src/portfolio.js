@@ -61,61 +61,12 @@ const header = {
       livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
     },
     {
-      name: 'Oneburner',
+      name: 'Cyberstick',
       description:
-        'The oneburner app has the login page, home page, enterprise page and the contact page. No authentication added',
+        'The cyberstick is a device just like that amazon firestick which is used for streaming contents online. It can be ordered on this application',
       stack: ['CSS', 'Javascript', 'React'],
-      sourceCode: 'https://github.com/Tomivan/Oneburner',
-      livePreview: 'https://oneburner-three.vercel.app',
-    },
-    {
-      name: 'Rayda',
-      description:
-        'Rayda is an ecommerce app that displays items to be sold. The styling was done using Material UI and Redux Toolkit for API implementation',
-      stack: ['React', 'Material UI', 'Redux Toolkit'],
-      sourceCode: 'https://github.com/Tomivan/Rayda',
-      livePreview: 'https://rayda-lac.vercel.app/',
-    },
-    
-    {
-      name: 'Stars Wars',
-      description:
-        'The star wars api was consumed to show a list of movies, starships, people, and species in the starwars franchise',
-      stack: ['Material UI', 'React', 'React Hooks'],
-      sourceCode: 'https://github.com/Tomivan/enyata',
-      livePreview: 'https://starwars-tomivan.vercel.app',
-    },
-    {
-      name: 'Premium Health',
-      description:
-        'The premium health is an admin dashboard used to keep record of patient information, health workers information and other admin',
-      stack: ['React', 'React Bootsrtap', 'Redux', 'React unit testing'],
-      sourceCode: 'https://github.com/Tomivan/health-portal',
-      livePreview: 'https://starwars-tomivan.vercel.app',
-    },
-    {
-      name: 'Host Beak',
-      description:
-        'Hoost Beak is an app to manage business performance' ,
-      stack: ['Bootsrap', 'React', 'React Hooks', 'Carbon components'],
-      sourceCode: 'https://github.com/Tomivan/HostBeak',
-      livePreview: 'https://host-beak-six.vercel.app',
-    },
-    {
-      name: 'Apex',
-      description:
-        'The Apex app helps connects businesses with their customers',
-      stack: ['Tailwind', 'Vue'],
-      sourceCode: 'https://github.com/Tomivan/Apex',
-      livePreview: 'https://apex-woad.vercel.app',
-    },
-    {
-      name: 'Meta Care',
-      description:
-        'The metacare app shows different graphs',
-      stack: ['Chart js', 'React', 'React Hooks'],
-      sourceCode: 'https://github.com/Tomivan/metacare',
-      livePreview: 'https://metacare-omega.vercel.app/',
+      sourceCode: 'https://github.com/Tomivan/cyberstick',
+      livePreview: 'https://cyberstick.io',
     },
   ]
   
