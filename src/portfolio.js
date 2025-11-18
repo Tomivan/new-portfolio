@@ -21,12 +21,20 @@ const header = {
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-      name: 'Duro',
+      name: 'OSLGSC Voting System',
       description:
-        'Duro is a solution to the problem of queuing and line-cutting. You sign up to join the queue and would be alerted when it is your turn.',
-      stack: ['React', 'Typescript', 'React', 'Redux', 'Formik'],
-      sourceCode: 'https://github.com/PipelineV2/team-beta-duro-frontend',
-      livePreview: 'https://fascinating-halva-6ecf99.netlify.app/',
+        'The OSLGSC Voting System is a project for a local government in Ogun State. The app was use to voting for an awards ceremony. The payment system was integrated with paystack to handle payments',
+      stack: ['Next', 'Typescript', 'Firebase', 'Context', 'Tailwind'],
+      sourceCode: 'https://github.com/Teepremium/OSLGSC-awards',
+      livePreview: 'https://oslgsc-awards.vercel.app/',
+    },
+    {
+      name: 'Boogi-noire',
+      description:
+        'Boogi-noire is an e-commerce website that sells perfumes and colognes. The application has a payment system integrated with paystack to handle payments',
+      stack: ['CSS', 'Javascript', 'React', 'Context', 'Firebase'],
+      sourceCode: 'https://github.com/Tomivan/Boogi-concepts',
+      livePreview: 'https://www.boogi-noire.org/',
     },
     {
       name: 'Nativetalk',
@@ -35,14 +43,6 @@ const header = {
       stack: ['CSS', 'HTML', 'React', 'Bootstrap'],
       sourceCode: 'https://github.com/Tomivan/NativeTalk-Landing',
       livePreview: 'https://nativetalk.io',
-    },
-    {
-      name: 'Movie-search App',
-      description:
-        'Enter the name of any movie in the search box, and movies with that title are shown in boxes below, with some information about the movie',
-      stack: ['CSS', 'Javascript', 'React'],
-      sourceCode: 'https://github.com/Tomivan/React-movie-search-app',
-      livePreview: 'https://tzmovies.netlify.app/',
     },
     {
       name: 'Booktracker',
