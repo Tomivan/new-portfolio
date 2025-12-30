@@ -1,54 +1,33 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
 import './About.css'
+import TerminalIcon from '@mui/icons-material/Terminal';
+import DevicesIcon from '@mui/icons-material/Devices';
+import BoltIcon from '@mui/icons-material/Bolt';
 
 const About = () => {
-  const { name, role, description, resume, social } = about
 
   return (
-    <div className='about center'>
-      {name && (
-        <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
-        </h1>
-      )}
-
-      {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
-
-      <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
-        )}
-
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <GitHubIcon />
-              </a>
-            )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-              >
-                <LinkedInIcon />
-              </a>
-            )}
-          </>
-        )}
+    <div className='about'>
+      <p className='blue'>About me</p>
+      <p className='bigger'>Bridging the gap between design and engineering</p>
+      <p>With over 5 years of experience in web development, I focus on creating intuitive user interfaces.
+        I believe a good code is like a good design – clean, efficient, and serves the user's needs without friction.
+      </p>
+      <div className='cards'>
+        <div className='card'>
+          <TerminalIcon style={{ fontSize: 30, color: '#1976d2' }} />
+          <p className="card-title">Clean Code</p>
+          <p>Writing scalable, and self-documenting code that teams love to work with.</p>
+        </div>
+        <div className='card'>
+          <DevicesIcon style={{ fontSize: 30, color: '#1976d2' }} />
+          <p className="card-title">Responsive Design</p>
+          <p>Ensuring applications look and feel great on any device, from desktop to mobile.</p>
+        </div>
+         <div className='card'>
+          <BoltIcon style={{ fontSize: 30, color: '#1976d2' }} />
+          <p className="card-title">Performance First</p>
+          <p>Optimizing applications for speed, accessibility and SEO to deliver seamless user experiences.</p>
+        </div>
       </div>
     </div>
   )

@@ -8,7 +8,8 @@ const Projects = () => {
 
   return (
     <section id='projects' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+      <p className='blue'>Portfolio</p>
+      <p className='bigger'>Featured Projects</p>
 
       <div className='projects__grid'>
         {projects.map((project) => (

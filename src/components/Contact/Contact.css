@@ -1,3 +1,19 @@
 .contact {
     flex-direction: column;
   }
+  .width {
+    width: 10vw;
+    margin-top: 2em;
+  }
+
+  @media (max-width: 767px) {
+  .width {
+    width: 30vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .width {
+    width: 20vw;
+  }
+}

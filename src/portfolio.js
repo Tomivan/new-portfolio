@@ -4,18 +4,18 @@ const header = {
     title: 'BO.',
   }
   
-  const about = {
-    // all the properties are optional - can be left empty or deleted
-    name: 'Bukunmi Odugbesan',
-    role: 'Front End Engineer',
-    description:
-      'Experienced in building large scale marketing applications used in sending targeted ads to thousands of users across different devices and different browsers. Also passionate about bringing designs to life making code as exact as the designs as possible, making applications appealing as well as functional. Diligent, Hardworking and resourceful, I also have a persistent drive to always sharpen my skills',
-    resume: 'https://docs.google.com/document/d/1RszZaorho2GeIWGKrlKh8uFya6Mad5ETU34rfu_6Xlw/edit#heading=h.y7d3xdxnr44m',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/bukunmi-odugbesan-157728157/',
-      github: 'https://github.com/Tomivan',
-    },
-  }
+  // const about = {
+  //   // all the properties are optional - can be left empty or deleted
+  //   name: 'Bukunmi Odugbesan',
+  //   role: 'Front End Engineer',
+  //   description:
+  //     'Experienced in building large scale marketing applications used in sending targeted ads to thousands of users across different devices and different browsers. Also passionate about bringing designs to life making code as exact as the designs as possible, making applications appealing as well as functional. Diligent, Hardworking and resourceful, I also have a persistent drive to always sharpen my skills',
+  //   resume: 'https://docs.google.com/document/d/1RszZaorho2GeIWGKrlKh8uFya6Mad5ETU34rfu_6Xlw/edit#heading=h.y7d3xdxnr44m',
+  //   social: {
+  //     linkedin: 'https://www.linkedin.com/in/bukunmi-odugbesan-157728157/',
+  //     github: 'https://github.com/Tomivan',
+  //   },
+  // }
   
   const projects = [
     // projects can be added an removed
@@ -94,4 +94,4 @@ const header = {
     email: 'bukunmiodugbesans@gmail.com',
   }
   
-  export { header, about, projects, skills, contact }
+  export { header, projects, skills, contact }
