@@ -20,14 +20,14 @@ const header = {
   const projects = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
-    // {
-    //   name: 'OSLGSC Voting System',
-    //   description:
-    //     'The OSLGSC Voting System is a project for a local government in Ogun State. The app was use to voting for an awards ceremony. The payment system was integrated with paystack to handle payments',
-    //   stack: ['Next', 'Typescript', 'Firebase', 'Context', 'Tailwind'],
-    //   sourceCode: 'https://github.com/Teepremium/OSLGSC-awards',
-    //   livePreview: 'https://oslgsc-awards.vercel.app/',
-    // },
+    {
+      name: 'OSLGSC Voting System',
+      description:
+        'The OSLGSC Voting System is a project for a local government in Ogun State. The app was use to voting for an awards ceremony. The payment system was integrated with paystack to handle payments',
+      stack: ['Next', 'Typescript', 'Firebase', 'Context', 'Tailwind'],
+      sourceCode: 'https://github.com/Teepremium/OSLGSC-awards',
+      livePreview: 'https://oslgsc-test.vercel.app/',
+    },
     {
       name: 'Boogi-noire',
       description:
