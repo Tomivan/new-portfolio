@@ -1,5 +1,5 @@
 import './intro.css';
-import Image from '../../assets/images/image.jpg';
+import Image from '../../assets/images/image.webp';
 
 const Intro = () => {
   return (
@@ -13,7 +13,7 @@ const Intro = () => {
             </div>
         </div>
         <div className="intro-image">
-            <img src={Image} className="intro-img" alt="Intro Illustration" />
+            <img src={Image} className="intro-img" alt="Intro Illustration" loading='lazy' width="400" height="400"/>
         </div>
     </div>
   );
