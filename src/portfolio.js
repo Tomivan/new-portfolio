@@ -45,28 +45,28 @@ const header = {
       livePreview: 'https://nativetalk.io',
     },
     {
-      name: 'Booktracker',
+      name: 'Teepremium',
       description:
-        'A bookshelf that has a list of books to be read. The shelf is divided into currently reading, Want to read (next in line) and a list of all books',
-      stack: ['CSS', 'Javascript',  'React'],
-      sourceCode: 'https://github.com/Tomivan/Udacity-booktracker',
-      livePreview: 'https://udacity-booktracker.vercel.app/',
+        'A digital marketing agency that offers SEO Optimization, social media marketing and content creation',
+      stack: ['CSS', 'Javascript',  'Next'],
+      sourceCode: 'https://github.com/Tomivan/Teepremium',
+      livePreview: 'https://teepremium.vercel.app/',
     },
     {
-      name: 'Would-You-Rather',
+      name: 'Deosol Events',
       description:
-        'A web based game that asks would-you-rather questions, keeps score and has a leaderboard with authentication functions',
-      stack: ['CSS', 'HTML', 'React', 'Redux'],
-      sourceCode: 'https://github.com/Tomivan/would-you-rather-udacity',
-      livePreview: ' https://would-you-rather-udacity-red.vercel.app/',
+        'A web application where customers can book the services of an event planner. Built with React, Bootstrap and icons from FontAwesome. Responsive across different devices.',
+      stack: ['CSS', 'HTML', 'React', 'Bootstrap'],
+      sourceCode: 'https://github.com/Tomivan/deosol',
+      livePreview: 'https://deosol.vercel.app/',
     },
     {
-      name: 'Cyberstick',
-      description:
-        'The cyberstick is a device just like that amazon firestick which is used for streaming contents online. It can be ordered on this application',
+      name: 'IJ Portfolio',
+      description: 
+      'A portfolio for Data Analyst, Digital Strategist and Community Manager, showcasing her skills, projects an contact information.',
       stack: ['CSS', 'Javascript', 'React'],
-      sourceCode: 'https://github.com/Tomivan/cyberstick',
-      livePreview: 'https://cyberstick.io',
+      sourceCode: 'https://github.com/Tomivan/ij-portfolio',
+      livePreview: 'https://ijeoma-ejinwa.vercel.app/',
     },
   ]
   
