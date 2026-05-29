@@ -34,7 +34,7 @@ const header = {
         'Boogi-noire is an e-commerce website that sells perfumes and colognes. The application has a payment system integrated with paystack to handle payments',
       stack: ['CSS', 'Javascript', 'React', 'Context', 'Firebase'],
       sourceCode: 'https://github.com/Tomivan/Boogi-concepts',
-      livePreview: 'https://www.boogi-noire.org/',
+      livePreview: 'https://boogi-noire.vercel.app/',
     },
     {
       name: 'Nativetalk',
